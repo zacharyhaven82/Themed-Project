@@ -8,8 +8,20 @@
 import Foundation
 import UIComponents
 
-class ContentViewModel: UIComponents.ButtonActionHandler {
+class DefaultContentViewModel: UIComponents.ButtonActionHandler {
     func handleButtonTap() {
-        print("Button tapped!")
+        print("Default Button tapped!")
+    }
+}
+
+class Brand1ContentViewModel: UIComponents.ButtonActionHandler {
+    func handleButtonTap() {
+        print("Brand 1 Button tapped!")
+    }
+}
+
+class Brand2ContentViewModel: UIComponents.ButtonActionHandler {
+    func handleButtonTap() {
+        print("Brand 2 Button tapped!")
     }
 }

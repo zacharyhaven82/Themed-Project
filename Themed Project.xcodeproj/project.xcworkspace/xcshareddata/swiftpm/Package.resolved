@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/zacharyhaven82/Theming",
       "state" : {
-        "revision" : "bd9dcb7989df109eb0b241764cc50644c272bcc6",
-        "version" : "1.0.5"
+        "revision" : "091e946afe5db16de522ce3c71e79ce24c2a4d25",
+        "version" : "1.0.9"
       }
     },
     {
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/zacharyhaven82/UIComponents",
       "state" : {
-        "revision" : "ef99e9b02b9f5f86a0ac459cad29579d34f9745c",
-        "version" : "1.0.6"
+        "revision" : "880df759c23f047d75a7309d8d3af53da80355c0",
+        "version" : "1.0.8"
       }
     }
   ],
