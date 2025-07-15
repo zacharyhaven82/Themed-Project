@@ -11,14 +11,14 @@ import Theming
 
 struct ContentView: View {
     
-    var defaultContentViewModel: ButtonActionHandler = DefaultContentViewModel()
+    let defaultContentViewModel: ButtonActionHandler = DefaultContentViewModel()
     
-    var brand1ContentViewModel: ButtonActionHandler = Brand1ContentViewModel()
+    let brand1ContentViewModel: ButtonActionHandler = Brand1ContentViewModel()
     let brand1ThemedButton: Theming.ButtonThemeable = UIComponents.ButtonDesignToken(backgroundColor: Color(Theming.StyleDictionaryEnum.buttonBrand1Background),
                                                                                      foregroundColor: Color(Theming.StyleDictionaryEnum.buttonBrand1Text),
-                                                                                     cornerRadius: CGFloat(Theming.StyleDictionaryEnum.borderRadiusLg))
+                                                                                     cornerRadius: CGFloat(Theming.StyleDictionaryEnum.borderRadiusXl))
     
-    var brand2ContentViewModel: ButtonActionHandler = Brand2ContentViewModel()
+    let brand2ContentViewModel: ButtonActionHandler = Brand2ContentViewModel()
     let brand2ThemedButton: Theming.ButtonThemeable = UIComponents.ButtonDesignToken(backgroundColor: Color(Theming.StyleDictionaryEnum.buttonBrand2Background),
                                                                                      foregroundColor: Color(Theming.StyleDictionaryEnum.buttonBrand2Text),
                                                                                      cornerRadius: CGFloat(Theming.StyleDictionaryEnum.borderRadiusSm))
@@ -35,6 +35,7 @@ struct ContentView: View {
                          actionHandler: brand2ContentViewModel)
         }
         .padding()
+        .background(Color(.purple))
     }
 }
 
