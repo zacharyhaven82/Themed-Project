@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BA4064A12E25A3C80084AC91 /* UIComponents in Frameworks */ = {isa = PBXBuildFile; productRef = BA4064A02E25A3C80084AC91 /* UIComponents */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BA40646D2E2569330084AC91 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA4064A12E25A3C80084AC91 /* UIComponents in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 				BA4064602E2569310084AC91 /* Themed Project */,
 				BA40646F2E2569330084AC91 /* Themed ProjectTests */,
 				BA4064792E2569330084AC91 /* Themed ProjectUITests */,
+				BA4064992E259A410084AC91 /* Frameworks */,
 				BA40645F2E2569310084AC91 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +96,13 @@
 				BA4064762E2569330084AC91 /* Themed ProjectUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BA4064992E259A410084AC91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +125,7 @@
 			);
 			name = "Themed Project";
 			packageProductDependencies = (
+				BA4064A02E25A3C80084AC91 /* UIComponents */,
 			);
 			productName = "Themed Project";
 			productReference = BA40645E2E2569310084AC91 /* Themed Project.app */;
@@ -195,6 +209,9 @@
 			);
 			mainGroup = BA4064552E2569310084AC91;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BA40649F2E25A3C80084AC91 /* XCRemoteSwiftPackageReference "UIComponents" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BA40645F2E2569310084AC91 /* Products */;
 			projectDirPath = "";
@@ -583,6 +600,26 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BA40649F2E25A3C80084AC91 /* XCRemoteSwiftPackageReference "UIComponents" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zacharyhaven82/UIComponents";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 2.0.0;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BA4064A02E25A3C80084AC91 /* UIComponents */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA40649F2E25A3C80084AC91 /* XCRemoteSwiftPackageReference "UIComponents" */;
+			productName = UIComponents;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BA4064562E2569310084AC91 /* Project object */;
 }

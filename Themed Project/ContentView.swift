@@ -6,14 +6,16 @@
 //
 
 import SwiftUI
+import UIComponents
 
 struct ContentView: View {
+    
+    var contentViewModel: ButtonActionHandler = ContentViewModel()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            ThemedButton(title: "Tap This Button",
+                         actionHandler: contentViewModel)
         }
         .padding()
     }

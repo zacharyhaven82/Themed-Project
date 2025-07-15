@@ -1,0 +1,24 @@
+{
+  "originHash" : "bf5778ab79b457fe602d41a3ead77dbdc0217c1582b47c8db74754a3279a3765",
+  "pins" : [
+    {
+      "identity" : "theming",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zacharyhaven82/Theming",
+      "state" : {
+        "revision" : "bd9dcb7989df109eb0b241764cc50644c272bcc6",
+        "version" : "1.0.5"
+      }
+    },
+    {
+      "identity" : "uicomponents",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zacharyhaven82/UIComponents",
+      "state" : {
+        "revision" : "ef99e9b02b9f5f86a0ac459cad29579d34f9745c",
+        "version" : "1.0.6"
+      }
+    }
+  ],
+  "version" : 3
+}
